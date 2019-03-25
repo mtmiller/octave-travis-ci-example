@@ -9,8 +9,14 @@ language: generic
 services:
 - docker
 
+env:
+- OCTAVE_VERSION=4.2
+- OCTAVE_VERSION=4.4
+- OCTAVE_VERSION=5
+
 before_install:
-- docker pull mtmiller/octave
+- docker pull mtmiller/octave:${OCTAVE_VERSION}
+- docker run mtmiller/octave:${OCTAVE_VERSION} octave --version
 
 script:
-- docker run --volume=${PWD}:/example:ro mtmiller/octave octave --path /example --eval "hello"
+- docker run --volume=${PWD}:/example:ro mtmiller/octave:${OCTAVE_VERSION} octave --path /example --eval "hello"
