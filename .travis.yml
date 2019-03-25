@@ -1,0 +1,16 @@
+## SPDX-License-Identifier: BSD-3-Clause
+## Copyright (C) 2019 Mike Miller
+##
+## .travis.yml - Travis CI configuration for octave-travis-ci-example
+
+dist: xenial
+language: generic
+
+services:
+- docker
+
+before_install:
+- docker pull mtmiller/octave
+
+script:
+- docker run --volume=${PWD}:/example:ro mtmiller/octave octave --path /example --eval "hello"
