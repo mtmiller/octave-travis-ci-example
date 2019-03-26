@@ -19,4 +19,4 @@ before_install:
 - docker run mtmiller/octave:${OCTAVE_VERSION} octave --version
 
 script:
-- docker run --volume=${PWD}:/example:ro mtmiller/octave:${OCTAVE_VERSION} octave --path /example --eval "hello"
+- docker run --volume=${PWD}:/example:ro,z mtmiller/octave:${OCTAVE_VERSION} octave --path /example --eval "hello"
