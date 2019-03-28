@@ -1,4 +1,6 @@
-# Introduction
+# Contribution Guidelines
+
+## Introduction
 
 Thank you for considering contributing to this small project. Any contribution
 is extremely welcome and appreciated.
@@ -6,7 +8,7 @@ is extremely welcome and appreciated.
 These guidelines are designed to help all contributors understand how to work
 and interact within this project.
 
-# Basics
+## Basics
 
 * Issues and merge requests via GitHub are very welcome
 * Issues and changes should be small and focused on a particular topic
@@ -15,7 +17,7 @@ and interact within this project.
 * Contributors are expected to abide by the
   [code of conduct](CODE_OF_CONDUCT.md)
 
-# Community
+## Community
 
 All project interaction takes place on GitHub. The project community is
 essentially the author at the moment. Since this project is intended to be used
