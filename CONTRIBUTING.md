@@ -10,7 +10,7 @@ and interact within this project.
 
 ## Basics
 
-* Issues and merge requests via GitHub are very welcome
+* Issues and pull requests via GitHub are very welcome
 * Issues and changes should be small and focused on a particular topic
 * Contributions include testing, writing documentation, submitting issues,
   writing code, and proposing new features
