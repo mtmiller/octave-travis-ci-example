@@ -20,10 +20,12 @@ and interact within this project.
 ## Community
 
 All project interaction takes place on GitHub. The project community is
-essentially the author at the moment. Since this project is intended to be used
-by the Octave development community, questions and discussions can be sent to
-the
-[Octave maintainers mailing list](https://lists.gnu.org/mailman/listinfo/octave-maintainers).
+essentially the author at the moment. Since this project is intended to be
+used by the Octave development community, questions and discussions may be
+sent to the [Octave maintainers mailing list].
 
-If you are not familiar or comfortable with mailing lists, you can also contact
-me directly at [mtmiller@octave.org](mailto:mtmiller@octave.org).
+If you are not familiar or comfortable with mailing lists, you can also
+contact the maintainer directly at [mtmiller@octave.org].
+
+[Octave maintainers mailing list]: https://lists.gnu.org/mailman/listinfo/octave-maintainers
+[mtmiller@octave.org]: mailto:mtmiller@octave.org
