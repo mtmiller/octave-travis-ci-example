@@ -1,7 +1,7 @@
 Octave Travis CI Example
 ========================
 
-[![Build Status](https://travis-ci.org/mtmiller/octave-travis-ci-example.svg?branch=master)](https://travis-ci.org/mtmiller/octave-travis-ci-example)
+[![Build Status](https://travis-ci.com/mtmiller/octave-travis-ci-example.svg?branch=master)](https://travis-ci.com/mtmiller/octave-travis-ci-example)
 
 This repository shows an example of how to use [Travis CI] to do continuous
 integration with an [Octave][GNU Octave] project.
